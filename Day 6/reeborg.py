@@ -19,6 +19,9 @@ def turn_right():
     turn_left()
     turn_left()
     turn_left()
+
+while front_is_clear():
+    move()
     
 while not at_goal():
     if right_is_clear():
@@ -30,3 +33,5 @@ while not at_goal():
        
     else:
         turn_left()
+
+
