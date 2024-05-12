@@ -22,6 +22,7 @@ def turn_right():
 
 while front_is_clear():
     move()
+turn_left()
     
 while not at_goal():
     if right_is_clear():
