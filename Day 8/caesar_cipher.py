@@ -40,6 +40,6 @@ def encode_decode(text=text, shift=shift):
 
         cipher_text += new_letter
 
-    print(f"The encoded text is {cipher_text}")
+    print(f"The {direction}d text is {cipher_text}")
 
 encode_decode()
